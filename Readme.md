@@ -24,3 +24,4 @@ From Root folder
 ```sh
 docker compose up --wait
 ```
+⚠️ You migh need to restart the api container, in order to connect properly with the DB
