@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChatSample.CQRS.Commands\ChatSample.CQRS.Commands.csproj" />
+    <ProjectReference Include="..\ChatSample.CQRS.Database\ChatSample.CQRS.Database.csproj" />
+    <ProjectReference Include="..\ChatSample.CQRS.Events\ChatSample.CQRS.Events.csproj" />
+    <ProjectReference Include="..\ChatSample.CQRS.Queries\ChatSample.CQRS.Queries.csproj" />
+  </ItemGroup>
+
+</Project>
